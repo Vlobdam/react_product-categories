@@ -67,8 +67,8 @@ export const Table = ({ products }) => (
           {products.map((product) => {
             const {
               id,
-              name,
               category,
+              name,
               user,
             } = product;
 
